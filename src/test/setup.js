@@ -8,4 +8,3 @@ document = global.document = window.document
 global.navigator = {
   userAgent: "node.js"
 }
-
