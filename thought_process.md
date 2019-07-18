@@ -46,3 +46,6 @@ When the break down button is clicked (onclick)
 Getting this put together is a different story. I really have no idea what I am doing. I am able to get a div tag to populate with an `onclick` elsewhere, however I can't seem to get this div tag to work `onload`. That being said, I am going to try and get a fetch call to work.
 
 With some guidance, I was steered toward using JQuery and the `index.js` file. This seems to be a much easier way to append things to the DOM. By creating a fetch call in this file, and `appending` the desired result to the `#top-word-here` tag, we are able to see the results populate on the page like we would want.
+
+----
+For times sake I am going to stay on this branch and work towards completing story #2 - where we can make a POST by clicking on the "Break Down button"

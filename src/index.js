@@ -9,7 +9,9 @@ function getTopWord() {
   .then(response => response.json())
   .then(word_info => {
     let word = Object.keys(word_info["word"])
+    let count = Object.values(word_info["word"])
 
-    $("#top-word-here").append(word[0])
+    $("#top-word").append(word[0])
+    $("#top-word-count").append(count[0])
   })
 }
